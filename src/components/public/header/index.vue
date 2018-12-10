@@ -11,7 +11,7 @@
          <!-- <em class="fr" v-if="shareIcon" @click="$parent.handleAPPShare"></em> -->
      </div>
      <!-- 占位符 -->
-     <!-- <div class="stance"></div> -->
+     <div class="stance"></div>
   </div>
 </template>
 
@@ -49,15 +49,15 @@ export default {
 <style lang="scss" scoped>
 .header-view{
   width: 100%;
-//   position: relative;
-//   z-index: 10;
+  position: relative;
+  z-index: 10;
   .stance{
     height: 0.88rem;
   }
   .header{
-    // position: fixed;
-    // top:0;
-    // left: 0;
+    position: fixed;
+    top:0;
+    left: 0;
     line-height: 0.88rem;
     background: #fff;
     width: 100%;

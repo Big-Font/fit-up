@@ -24,12 +24,14 @@ export default {
 <style lang='scss'>
 .m-footer{
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   display: flex;
   height: 0.9rem;
-  // padding-top: 0.8rem;
+  background: #fff;
+  border-top: 1px solid #e2e2e2;
+  padding-top: 0.08rem;
   z-index: 10;
   >a{
     flex: 3;
